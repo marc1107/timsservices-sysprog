@@ -1,0 +1,14 @@
+a)
+
+- Objektorientierung
+- Templates
+- Ausnahmebehandlung, Namensräume, Referenzen, Überladen von Funktionen und Operatoren
+
+b)
+
+C++ besitzt:
+
+- Kein Garbage-Collector
+- Merfachvererbung
+- Klassen als Werttyp verwendbar
+- Operator-Overlading

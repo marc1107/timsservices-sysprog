@@ -1,0 +1,40 @@
+a)
+
+struct Raum
+{
+    int zimmer;
+    char gebaeude;
+    char *art;
+};
+
+int a = 1;
+int *b = &a;
+
+double c[2];
+c[0] = 2.3;
+c[1] = 4.5;
+
+struct Raum d;
+d.zimmer = 109;
+d.gebaeude = 'C';
+d.art = "Hoersaal";
+
+struct Raum *e = (struct Raum*) malloc(sizeof(struct Raum));
+e->zimmer = 124;
+e->gebaeude = 'F';
+e->art = "Buero";
+
+
+--------------------------------------------------------------------------------
+
+b)
+
+sizeof(d) = 16 Byte
+
+LP64:
+Mit Ausrichtung     -> 16 Byte // Nach dem char muss mit 3 Byte aufgefüllt werden.
+Ohne Ausrichtung    -> 13 Byte // Die 3 Byte werden nicht gebraucht.
+
+ILP32:
+Mit Ausrichtung     -> 12 Byte // Auffüllen mit 3 Byte nach dem char
+Ohne Ausrichtung    ->  9 Byte // Pointer ist nur 4 Byte lang 

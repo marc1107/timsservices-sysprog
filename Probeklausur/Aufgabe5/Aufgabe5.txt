@@ -1,0 +1,24 @@
+a)
+
+- Absturz
+- Endlosschleife
+- Speicherüberlauf
+- Fehlverhalten
+
+------------------------------------------
+
+b)
+
+Absturz:
+- Debugging (z.B ddd)
+- Valgrind
+
+Endlosschleife:
+- Debugging (z.B ddd)
+
+Speicheüberlauf:
+- Debugging (z.B ddd)
+- Valgrind
+
+Fehlverhalten:
+- Debugging (z.B ddd)

@@ -1,0 +1,3 @@
+Funktionen haben einen bestimmten Rückgabewert im Fall von einem Fehler.
+Daraufhin wird die Errornumber gesetzt (kurz: errno), diese kann man dann über
+strerror zu einem leserlichen String umwandeln und ausgeben lassen.
